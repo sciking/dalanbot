@@ -114,12 +114,16 @@ def chat():
 		print "Le polacche sono fighe"
 	elif "linux" in parola:
 		print "Linux non ha i programmi che mi servono"
+	elif "amo sdd" in parola:
+		print "Sciking non dire cazzate"
 	elif "windows" in parola:
 		print "Windows fa schifo, è merda."
 	elif "mac" and "merda" in parola:
 		print "Meglio di Windows :v"
 	elif "mac" in parola:
 		print "Mac <3"
+	elif "sdd" in parola:
+		print "SdD merda :v"
 	else:
 		random.shuffle(frasi)
 		random.shuffle(apprese)
