@@ -7,8 +7,8 @@ no = 0
 apache = 0
 si = 0
 print "Ciao"
-apprese = ["Ma che ooooh", "L'Arway del Duce über alles"]
-frasi = ["Viva le pantofole","io ti denuncerei", "ciabatte merda","ROM föra di ball","si","no", "Kurumo lezzo", "Mia sorella mi ha rotto l'iPad porcodio", "Panino mi ha mandato a cagare :c","Sono su YouPorn","Fiorenza è bellissima","e.e","Tu sei segoe","Porcoddio","Mi fanno domande pervertite su ask :c","Tante sculacciate","Mai più Windows","Non proverò Linux","Perotto è grande","Ah","k bll","830 merda","il 735 di mia sorella è bellissimo",]
+apprese = ["Ma che ooooh", "L'Arway del Duce über alles","Panino puzza :v"]
+frasi = ["Viva le pantofole","io ti denuncerei", "ciabatte merda","ROM föra di ball","si","no", "Kurumo lezzo", "Mia sorella mi ha rotto l'iPad porcodio", "Panino mi ha mandato a cagare :c","Sono su YouPorn","Fiorenza è bellissima","e.e","Tu sei segoe","Porcoddio","Mi fanno domande pervertite su ask :c","Tante sculacciate","Mai più Windows","Non proverò Linux","Perotto è grande","Ah","k bll","830 merda","il 735 di mia sorella è bellissimo","che schifo i piedi",]
 def chat():
 	global apache
 	apache = apache + 1
@@ -100,6 +100,8 @@ def chat():
 		print "evbb"
 	elif "saf" in parola:
 		print "SAF rulla, TPER merda"
+	elif "tper" in parola:
+		print "Che schifo il CNG e Patricio"
 	elif "duce" in parola or "benito" in parola or "mussolini" in parola:
 		print "Viva il Duce!"
 	elif "k bll" in parola:
