@@ -18,7 +18,7 @@ def chat():
 	global si
 	parola = raw_input(">")
 	parola = parola.lower()
-	if parola != "" and "dalan" not in parola and "dalagn" not in parola:
+	if parola != "" and "dalan" not in parola and "dalagn" not in parola and "dolan" not in parola:
 		apprese.append(parola)
 	if "pantofole" in parola:
 		print "Viva le pantofole"
@@ -126,6 +126,18 @@ def chat():
 		print "Mac <3"
 	elif "sdd" in parola:
 		print "SdD merda :v"
+	elif "saf" in parola:
+		print "Da grande sarò autista SAF"
+	elif "butti" in parola:
+		print "Butti xe mezzo veneto"
+	elif "piedi" in parola:
+		print "che schifo i piedi"
+	elif "gay" in parola:
+		print "I gay possono incularsi quanto vogliono ma non devono avere bambini"
+	elif "omofobo" in parola:
+		print "No all'utero in affitto"
+	elif "coop" in parola:
+		print "Bleah comunisti"
 	else:
 		random.shuffle(frasi)
 		random.shuffle(apprese)
