@@ -57,7 +57,7 @@ def chat():
 	elif "cosa pensi" in parola:
 		coeff = random.randint(1,5)
 		if coeff == 1:
-			print "E'lezzo"
+			print "È lezzo"
 		if coeff == 2:
 			print "Mi piace"
 		if coeff == 3:
@@ -138,6 +138,18 @@ def chat():
 		print "No all'utero in affitto"
 	elif "coop" in parola:
 		print "Bleah comunisti"
+	elif "m8" in parola:
+		print "Patricio..."
+	elif "mdd" in parola:
+		print "Ho riacceso il Wi-Fi"
+	elif "hamer" in parola:
+		print "Hamer è un ciarlatano di merda, lo ammazzerei con le mie mani"
+	elif "eri hameriano" in parola:
+		print "Ero ingenuo :("
+	elif "Alex" in parola:
+		print "Che schifo il bisex"
+	elif "Jorji" in parola:
+		print "Gloria ad Arstotzka"
 	else:
 		random.shuffle(frasi)
 		random.shuffle(apprese)
